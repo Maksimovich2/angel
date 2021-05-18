@@ -1,0 +1,18 @@
+package com.USA.angel.usa;
+
+import com.USA.angel.serviceUSA.ServiceUSA;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+@Controller
+public class ControllerUSA {
+
+    @GetMapping("/usa")
+    public String greeting() {
+        return "usaAngel";
+    }
+}
