@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "Futura";
+    src: url(8201.ttf);
+}
+/*
+@font-face {
+    font-family: "Futura1";
+    src: url(8202.ttf);
+}
+*/
+
+body{
+    background-color: #90d5e5;
+    margin:0;
+}
+.questions{
+    background: rgb(228,210,197);
+    background: linear-gradient(90deg, rgba(228,210,197,1) 29%, rgba(102,204,204,1) 54%, rgba(102,204,204,1) 100%);
+}
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 565px;
+    background: url('scotland.png') center / cover;
+}
+
+.question-title {
+    font-family: 'Futura-Normal', arial;
+    font-size: 32px;
+    max-width: 700px;
+    text-align: center;
+}
+
+.answer{
+
+}
+
+.options {
+    font-family: 'Futura';
+    font-size: 22px;
+    text-align: center;
+}
+
+.options li {
+    transition: all .2s;
+    cursor: pointer;
+    margin: 20px 47px 20px 0;
+}
+
+.options li:hover {
+    margin-right: -10px;
+}
+
+
+
+a.boton1{
+    position: relative;
+    background:#eee;
+    color:black;
+    text-decoration:none;
+    display:block;
+    width:120px;
+    text-align:center;
+    margin:20px auto;
+    padding:10px 10px;
+    transition:all 0.3s;
+    border-radius: 15px;
+    font-family: 'Futura', arial;
+}
+a.boton1:hover{
+    box-shadow:0px -5px 0 black inset;
+}
