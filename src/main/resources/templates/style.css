@@ -1,7 +1,4 @@
-@font-face {
-    font-family: "Futura";
-    src: url(8201.ttf);
-}
+
 /*
 @font-face {
     font-family: "Futura1";
@@ -31,7 +28,7 @@ body{
     align-items: center;
     width: 1000px;
     height: 565px;
-    background: url('scotland.png') center / cover;
+    background: url('https://psv4.userapi.com/c537232/u90557568/docs/d9/ac5240b1b76a/usa_kartohka.jpg?extra=HOOnkpr5HXQWYsmpDsy06I069jhFeuMR7Mfte5KW5YL5uVZqDJNERnBr9begTH5aGFyJTUVJRthiLbiCYteYlzqmOUOcQDehDIrOk3QNw7JOuOJixhhYGFj8OetaE6auE4NT0aY-6hg_EA4mc1J-DWQ') center / cover;
 }
 
 .question-title {
